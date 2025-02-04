@@ -22,10 +22,6 @@ model.fit(X_train, y_train)
 # Facciamo una previsione
 predictions = model.predict(X_test)
 
-# Valutiamo il modello
-mae = mean_absolute_error(y_test, predictions)
-print(f"Errore assoluto medio: {mae:.2f}")
-
 # Previsione delle scorte per il giorno 31
 giorno_futuro = np.array([[31]])
 scorte_previste = model.predict(giorno_futuro)
