@@ -1,4 +1,4 @@
-# inventory_management_with_AI
+## inventory_management_with_AI
 Building AI course project
 Smart Inventory Management
 
@@ -6,7 +6,7 @@ Smart Inventory Management
 
 This project aims to simplify warehouse inventory management using machine learning. By predicting stock demand and automating replenishment alerts, it reduces waste, prevents shortages, and optimizes storage space.
 
-Background
+## Background
 
 Managing inventory efficiently is a common challenge for businesses. Overstocking leads to waste and increased costs, while understocking causes delays and lost sales. A smart system can help businesses:
 
@@ -16,7 +16,7 @@ Optimize stock levels to prevent shortages and overstocking
 
 Reduce manual tracking efforts and human errors
 
-How is it used?
+## How is it used?
 
 The system collects inventory data from warehouse records, sales history, and external factors (e.g., seasonal trends). The machine learning model analyzes the data and provides:
 
@@ -26,7 +26,7 @@ Automatic stock replenishment alerts
 
 Insights to optimize storage space
 
-Users:
+## Users:
 
 Warehouse managers
 
@@ -34,7 +34,7 @@ Retailers
 
 E-commerce businesses
 
-Example workflow:
+##Example workflow:
 
 The system receives real-time stock updates.
 
@@ -44,7 +44,7 @@ The system generates alerts for low stock items.
 
 Managers adjust restocking orders accordingly.
 
-Data sources and AI methods
+## Data sources and AI methods
 
 The system uses:
 
@@ -62,7 +62,7 @@ Anomaly detection for unusual demand patterns
 
 Clustering for stock categorization
 
-Challenges
+## Challenges
 
 Handling unexpected demand fluctuations
 
@@ -70,7 +70,7 @@ Data quality and completeness
 
 Ethical considerations in AI-driven decision-making
 
-What next?
+## What next?
 
 To enhance the system, we plan to:
 
@@ -80,7 +80,7 @@ Improve accuracy with reinforcement learning
 
 Expand predictive models to multiple industries
 
-Acknowledgments
+## Acknowledgments
 
 Inspired by existing inventory management solutions
 
