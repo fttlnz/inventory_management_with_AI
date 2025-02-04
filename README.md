@@ -1,3 +1,4 @@
+
 # Inventory management with AI
 
 Final project for the Building AI course
