@@ -1,0 +1,32 @@
+#code
+import numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_absolute_error
+
+# Simuliamo un dataset con dati storici delle scorte
+giorni = np.arange(1, 31)
+scorte = np.random.randint(50, 200, 30)
+
+# Definiamo feature e target
+X = giorni.reshape(-1, 1)
+y = scorte
+
+# Dividiamo il dataset in training e test set
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Creiamo e addestriamo il modello
+model = LinearRegression()
+model.fit(X_train, y_train)
+
+# Facciamo una previsione
+predictions = model.predict(X_test)
+
+# Valutiamo il modello
+mae = mean_absolute_error(y_test, predictions)
+print(f"Errore assoluto medio: {mae:.2f}")
+
+# Previsione delle scorte per il giorno 31
+giorno_futuro = np.array([[31]])
+scorte_previste = model.predict(giorno_futuro)
+print(f"Scorte previste per il giorno 31: {scorte_previste[0]:.2f}")
