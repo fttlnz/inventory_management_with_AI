@@ -1,4 +1,4 @@
-#Inventory management with AI
+# Inventory management with AI
 
 ## Summary
 
