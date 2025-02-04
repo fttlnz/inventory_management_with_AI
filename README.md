@@ -1,7 +1,3 @@
-## inventory_management_with_AI
-Building AI course project
-Smart Inventory Management
-
 ## Summary
 
 This project aims to simplify warehouse inventory management using machine learning. By predicting stock demand and automating replenishment alerts, it reduces waste, prevents shortages, and optimizes storage space.
